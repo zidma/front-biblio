@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+tr:hover {
+  background-color: purple;
+}
+#action-btn{
+visibility: hidden;
+}
+tr:hover #btn-action{
+  visibility: visible;
+}
